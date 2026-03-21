@@ -1,0 +1,105 @@
+/* styles.css */
+.root {
+    -fx-background-image: url("file:src/MainBackground.jpg"); /* Relative file path */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+/* styles.css */
+
+/* Sidebar background image */
+.sidebar {
+    
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+/* General styles */
+.root {
+   
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+/* Glowing Label */
+.label {
+    -fx-font-family: "Times New Roman"; /* Set font to Times New Roman */
+    -fx-font-size: 38px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00; /* Glowing yellowish brown color */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 204, 0, 1), 8, 0, 0, 2); /* Glowing effect */
+    -fx-padding: 14;
+}
+
+
+/* Main Buttons Style */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #8B5A2B, #D2691E); /* Wood colors */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 15px 30px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 2);
+    -fx-transition: all 0.3s ease;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #D2691E, #8B5A2B); /* Change the gradient on hover */
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Sidebar buttons */
+.sidebar .button {
+   
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+    -fx-transition: all 0.3s ease;
+}
+
+.sidebar .button:hover {
+    -fx-background-color: linear-gradient(to bottom, #D2691E, #8B5A2B); /* Change the gradient on hover */
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Additional Button for Sidebar */
+.sidebar {
+    -fx-background-color: #3e2b2b;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+}
+
+/* Apply rounded corners for all buttons */
+.button, .sidebar .button {
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-color: #5C4033; /* A slightly darker wood color */
+}
+
+/* Set width of buttons to make them uniform */
+.button, .sidebar .button {
+    -fx-max-width: 200px;
+}
+/* Menu Button Style */
+.menu-button {
+    -fx-background-color: linear-gradient(to bottom, #8B5A2B, #D2691E); /* Wood colors */
+    -fx-text-fill: white;
+    -fx-font-size: 16px; /* Set font size */
+    -fx-font-weight: bold;
+    -fx-padding: 15px 30px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 2);
+    -fx-transition: all 0.3s ease;
+}
+
+

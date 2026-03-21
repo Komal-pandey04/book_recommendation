@@ -1,0 +1,57 @@
+/* Overall layout styling */
+.root {
+    -fx-font-size: 11px;
+    -fx-padding: 20px;
+    -fx-background-color: #f4f4f9; /* Light background color */
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Darker text for better readability */
+    -fx-padding: 5px;
+}
+
+.text-field {
+    -fx-pref-width: 180px;
+    -fx-font-size: 11px;
+    -fx-padding: 8px;
+    -fx-background-color: #ffffff; /* White background for input */
+    -fx-border-color: #cccccc; /* Subtle border */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-insets: 0, 1; 
+    -fx-effect: innershadow(gaussian, #aaaaaa, 2, 0.5, 0, 0); /* Subtle shadow effect */
+}
+
+.button {
+    -fx-font-size: 11px;
+    -fx-padding: 6px 12px;
+    -fx-pref-width: 140px;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-border-color: #4CAF50; /* Matching border color */
+    -fx-cursor: hand; /* Hand cursor on hover */
+    -fx-effect: dropshadow(gaussian, #333333, 4, 0.2, 0, 2); /* Shadow effect on hover */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.vbox {
+    -fx-spacing: 8px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+/* Adjust the max width for the VBox to ensure the elements are smaller */
+.vbox {
+    -fx-max-width: 350px;
+    -fx-min-width: 250px; /* Ensuring no element is too stretched */
+    -fx-alignment: center;
+}
+
+.text-field, .button {
+    -fx-pref-width: 160px; /* Adjust width for a more compact appearance */
+}
