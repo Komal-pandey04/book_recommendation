@@ -22,35 +22,3 @@ Displays relevant book recommendations
 BookRecommendation/ │── Main.java # Entry point │── Recommendation.java # Logic for recommendation │── books.txt / data # Book dataset
 
 
----
-
-## ▶️ How to Run
-
-### 1️⃣ Compile the program
-
-java Main.java
-2️⃣ Run the program
-java Main
-
-
----
-
-## 📸 Output Example
-
-Enter book keyword: python
-Recommended Books:
-- Python Crash Course
-- Learning Python
-- Automate the Boring Stuff with Python
-🎯 Future Improvements
-🤖 Add ML-based recommendation
-🌐 Convert into web app (Spring Boot)
-⭐ Add rating-based filtering
-📊 Use larger dataset
-🤝 Contributing
-Feel free to fork this repository and improve the recommendation system.
-
-👨‍💻 Author
-Komal Pandey 🔗 GitHub: https://github.com/Komal-pandey04
-
-⭐ If you like this project, give it a star!
