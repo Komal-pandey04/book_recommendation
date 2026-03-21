@@ -1,1 +1,44 @@
+/* Apply the same button styles for AuthorFinder */
+.finder-button {
+    -fx-background-color: #8B4513; /* Woody brown */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 204, 0, 1), 8, 0, 0, 2); /* Glowing effect */
+    -fx-transition: background-color 0.3s ease-in-out;
+}
 
+.finder-button:hover {
+    -fx-background-color: #A0522D; /* Darker brown on hover */
+}
+
+/* Apply the same label style */
+.finder-label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffcc00; /* Glowing yellowish brown */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 204, 0, 1), 8, 0, 0, 2); /* Glowing effect */
+    -fx-padding: 10 20;
+}
+
+/* Apply layout styles for the "Finder" classes */
+.finder-layout {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+    -fx-padding: 20;
+}
+
+/* Style for the text fields inside the Finder classes */
+.finder-textfield {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+    -fx-background-color: #f5deb3; /* Light brown background for text fields */
+    -fx-border-color: #8B4513; /* Woody border */
+    -fx-border-radius: 8;
+}
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
